@@ -1,0 +1,50 @@
+.leave-item {
+  display: flex;
+  flex-direction: column;
+}
+.leave-list-other-details {
+  font-size: 14px;
+  padding: 6px 12px 4px;
+  display: inline-block;
+  border-radius: 4px;
+}
+.status-tag-container {
+  margin-top: 5px;
+}
+.record {
+  margin-bottom: 5px;
+}
+.leave-record {
+  width: 100%;
+}
+
+.record p {
+  margin: 0;
+}
+
+.leave-record .leave-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.leave-record .leave-title.small {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.leave-highlight-list-tab-button {
+  border-bottom: 3px solid #31b7ac;
+}
+
+
+.leave-list-tab-button {
+  padding-top: 5px;
+  color: #000 !important;
+  text-transform: none !important;
+  font-weight: bold;
+}
+
+.leave-list {
+  padding-left: 3%;
+  padding-right: 3%;
+}

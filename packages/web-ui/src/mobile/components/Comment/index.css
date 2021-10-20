@@ -1,0 +1,74 @@
+.comment-btn-active {
+  display: flex;
+  line-height: 40px;
+  background-color: #1E85D1;
+  color: white;
+  font-size: 9pt;
+  font-weight: 600;
+  padding: 0 20px 0 20px;
+  border-radius: 50px;
+}
+
+.comment-btn-disable {
+  display: flex;
+  line-height: 40px;
+  background-color: #90CAF9;
+  color: white;
+  font-size: 9pt;
+  font-weight: 600;
+  padding: 0 20px 0 20px;
+  border-radius: 50px;
+}
+
+.comment-input {
+  display: flex;
+  flex: 1;
+  border: none;
+  color: rgb(175,175,175);
+  font-size: 11pt;
+}
+
+.comment-input-container {
+  display: flex;
+  margin: 20px 10px;
+  padding: 5px 15px;
+  border: solid 1px #F7F7F7
+}
+
+.comment-tag {
+  border-radius: 50%;
+  padding: 10px 15px 10px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+  height: 40px;
+}
+
+.comment-container {
+  display: flex;
+  line-height: 20px;
+  padding: 15px 0 15px 0;
+  font-weight: normal;
+}
+
+.comment-load {
+  display: inline-block;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: gray;
+  padding: 5px 20px 5px 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.popover__content {
+  min-height: 50px;
+  width: 119px;
+}
+
+span:focus {
+  outline: none
+}

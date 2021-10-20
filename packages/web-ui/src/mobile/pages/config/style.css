@@ -1,0 +1,42 @@
+.config-content .config-list, .config-content .common-list {
+  margin: 40px 20px 20px;
+}
+.config-content .common-list {
+  border-top: 2px solid #d7d7d7;
+  border-bottom: 2px solid #d7d7d7;
+}
+.config-content .config-page {
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.config-content .extra {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+.config-content .extra .fa {
+  font-size: 19px;
+  position: relative;
+  left: -12px;
+  top: 1px;
+}
+
+.switch-color :checked + .switch--material__toggle > .switch--material__handle {
+  background-color: #3AC2D1;
+}
+
+.switch-color .switch--material__toggle, .switch-color  :checked + .switch__toggle {
+  background-color: #00C5D0 !important;
+  box-shadow: none !important;
+}
+
+.config-content {
+  margin-bottom: 5%;
+}

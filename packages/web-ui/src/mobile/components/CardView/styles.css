@@ -1,0 +1,166 @@
+
+.principal-card-view {
+  background-color: rgb(247, 247, 247) !important;
+  box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.11) !important;
+  font-size: 9pt;
+}
+
+.card-view {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: 0px 0px 15px 0 rgba(0, 0, 0, 0.11);
+  margin: 20px 10px;
+  padding: 5px 15px;
+  font-size: 9pt;
+  font-weight: 600;
+}
+
+.card-header {
+  font-size: 11pt;
+  font-weight: 600;
+  padding: 8px 0px;
+}
+
+.card-field {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  margin: 15px 0px;
+  line-height: 1.5em;
+}
+
+.card-field-title {
+  color: #D3D3D3;
+}
+
+.action-view {
+  background-color: rgb(49, 183, 172);
+  border-radius: 0px 0px 6px 6px;
+  padding: 10px;
+  display: flex;
+}
+
+.action-item {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.action-item-icon, .action-item-title {
+  margin: 0px auto;
+  text-align: center;
+  color: white;
+}
+
+.action-item-title {
+  font-weight: 600;
+}
+
+.action-item-icon {
+  font-size: 20px;
+  height: 23px;
+}
+
+.card-field .text-input{
+  font-size: 9pt;
+  font-weight: 600;
+}
+
+.principal-card-view {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  padding-bottom: 0px !important;
+  background-color: rgb(247, 247, 247) !important;
+  box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.11) !important;
+  margin: 20px 10px;
+}
+
+.card-textarea {
+  border-bottom: 1px solid #AFAFAF;
+  border-radius: 0px;
+}
+
+.tag-button {
+  background-color: #79BB45;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  position: relative;
+}
+
+.hidden-selection {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.card-field-text, .card-field-title {
+  font-size: 9pt !important;
+  font-weight: 600;
+}
+
+.many-to-many-button {
+  background-color: #7d3b9b;
+  padding: 5px 20px;
+  border-radius: 15px;
+  font-size: 9pt;
+  font-weight: 600;
+  color: #fff;
+}
+
+.test-class .text-input__label{
+  font-weight: 600;
+  left: auto !important;
+  right: 0;
+  top: 0px;
+  color: #C3C3C3;
+  display: block !important;
+  margin-top: 5px;
+  font-size: 11pt !important;
+  transform: none !important;
+  padding-right: 5px;
+}
+
+.card-quantity-field {
+  display: flex;
+  justify-content: space-between;
+  line-height: 40px;
+  background-color: #F7F7F7;
+  border-radius: 25px;
+  font-size: 11pt;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card-quantity-btn {
+  padding-left: 12px;
+  padding-right: 12px
+}
+
+.counter-container {
+  position: absolute;
+  right: 0;
+  margin-right: 8%;
+  margin-top: 25px;
+  color: #D3D3D3;
+  font-size: 1.2em;
+}
+
+.input-icon {
+  position: absolute;
+  margin-left: -35px;
+  margin-top: -15px;
+  color: '#D3D3D3';
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.file-input .text-input {
+  border-bottom: 0px !important;
+}

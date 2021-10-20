@@ -1,0 +1,17 @@
+.stock-pick-action-view {
+  display: flex;
+  justify-content: space-around;
+}
+.stock-pick-action {
+  display: flex;
+  flex-direction: row;
+  flex: none;
+  padding: 10px 20px 0px 20px;
+}
+.stock-pick-action-icon {
+  color: #000;
+}
+.stock-pick-action-title {
+  color: #000;
+  margin-left: 10px;
+}

@@ -1,0 +1,42 @@
+.bold-subject {
+  font-weight: bolder;
+  font-size: 19px;
+}
+.expense-amount {
+  color: black;
+  font-size: 16px;
+}
+
+.expense-period {
+  color: #545454;
+  font-size: 14px;
+}
+.item-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-list {
+  margin-top: 20%;
+}
+
+.status-tag {
+  padding: 4px 20px;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: white;
+}
+
+.status-tag-container {
+  margin-top: 5px;
+}
+
+.app_ios .list_add_button {
+  padding-left: 23px;
+  padding-right: 0px !important;
+}
+
+.list_add_button {
+  padding-right: 15px;
+}

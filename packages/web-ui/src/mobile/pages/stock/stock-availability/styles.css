@@ -1,0 +1,59 @@
+.company_info {
+  display: flex;
+  margin: 10px;
+}
+.info-row {
+  display: flex;
+  justify-content: space-around;
+}
+.info-box {
+  display: flex;
+  padding: 4px 8px;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  width: 100%;
+  margin: 7px;
+}
+.info-icon {
+  color: #2185D0;
+  width: 32px;
+}
+.info-view {
+  display: flex;
+  flex-direction: column;
+}
+.info-value {
+  color: #2185D0;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 2px 0 4px;
+  text-overflow: ellipsis;
+  max-width: 150;
+}
+.info-title {
+  font-size: 85%;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.15);
+
+}
+.stock-icon {
+  color: #2185D0;
+  font-size: 26px;
+  line-height: 50px;
+  width: 32px;
+}
+
+.barcode-icon {
+  height: 60px;
+  width: 100%;
+  background-repeat: round;
+}
+
+.scanner-view {
+  padding: 5px 10px;
+  width: 80%;
+}
+
+.product-stock-info-view {
+  margin: 3px;
+  margin-bottom: 20px;
+}

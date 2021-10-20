@@ -1,0 +1,14 @@
+{
+  "lerna": "2.5.1",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "commands": {
+    "publish": {
+      "ignore": [
+        "src"
+      ]
+    }
+  }
+}

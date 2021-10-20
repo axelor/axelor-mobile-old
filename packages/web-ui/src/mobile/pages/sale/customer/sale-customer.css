@@ -1,0 +1,31 @@
+.customer-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.customer-item-name-field {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.loader-ui {
+  margin-top: 20px;
+}
+
+.right.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right .round-icon {
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  border: 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right .round-icon .ons-icon {
+  color: inherit;
+}

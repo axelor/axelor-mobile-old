@@ -1,0 +1,15 @@
+.inventory-selection-row {
+  display: flex;
+  margin: 10px;
+}
+
+.barcode-icon {
+  height: 60px;
+  width: 100%;
+  background-repeat: round;
+}
+
+.scanner-view {
+  padding: 5px 10px;
+  width: 80%;
+}

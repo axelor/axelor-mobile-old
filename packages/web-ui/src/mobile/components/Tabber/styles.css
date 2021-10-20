@@ -1,0 +1,36 @@
+.tabber-view {
+  display: flex;
+  min-height: 30px;
+  padding: 0px 2px;
+}
+
+.tab-container {
+  border-bottom: 1px solid rgb(227,227,227);
+  width: 100%;
+}
+
+.inactive-tabber-tab {
+  font-weight: 600;
+  color: rgb(175,175,175);
+}
+
+.active-tabber-tab {
+  color : #000;
+  font-weight: 600;
+  border-bottom: 3px solid #7d3b9b;
+}
+
+.tabber-item {
+  font-size: 9pt;
+  padding: 0px 10px 0px 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.tabber-title {
+  padding-bottom: 14px;
+}
+
+.app_ios .tabber-title {
+  padding-bottom: 12px;
+}

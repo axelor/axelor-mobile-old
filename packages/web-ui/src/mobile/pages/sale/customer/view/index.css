@@ -1,0 +1,93 @@
+.customer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.customer-info-detail {
+  margin-top: 5px;
+  margin-bottom: 0%;
+  color: black ;
+  font-weight: bold;
+
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+  line-height: 20px
+}
+
+.list-container:nth-child(odd) {
+  display: flex;
+  align-items: center;
+  font-size: 9pt;
+  padding: 5px 0 5px 25px;
+  background-color: rgb(247, 247, 247);
+}
+
+.list-container:nth-child(even) {
+  display: flex;
+  align-items: center;
+  font-size: 9pt;
+  padding: 5px 0 5px 25px;
+  background-color:white;
+}
+
+.list-container-edit:nth-child(odd) {
+  display: flex;
+  align-items: center;
+  font-size: 9pt;
+  padding: 5px 25px 5px 25px;
+  background-color: rgb(247, 247, 247);
+  border-bottom: solid 1px #ddd;
+  justify-content: space-between;
+}
+
+.list-container-edit:nth-child(even) {
+  display: flex;
+  align-items: center;
+  font-size: 9pt;
+  padding: 5px 25px 5px 25px;
+  background-color:white;
+  border-bottom: solid 1px #ddd;
+  justify-content: space-between;
+}
+
+.list-item-content {
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 80%;
+}
+
+.contact-tab {
+  font-size: 9pt;
+}
+
+.offline-card-view{
+  background-color: rgb(247, 247, 247);
+  border-radius: 6px;
+  box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.11);
+  height: 350px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.offline-msg-header{
+  font-size : 16px;
+  font-weight: 600;
+  color : #000;
+  width: 100%
+}
+
+.offline-msg-footer{
+  font-size: 12px;
+  padding-top: 10%;
+  width: 100%
+}

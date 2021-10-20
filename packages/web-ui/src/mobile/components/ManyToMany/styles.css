@@ -1,0 +1,40 @@
+.m2m-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.m2m-container > *  {
+  display: inline-block;
+}
+.m2m-action {
+  margin-left: 4px;
+  margin-top: 4px;
+  font-size: 1.5rem !important;
+  color: #616161;
+}
+
+.m2m-chip-item {
+  display: inline-block;
+  background: #ddd;
+  color: #000;
+  padding: 5px 20px 5px 10px;
+  margin: 5px 5px 5px 0;
+  position: relative;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.m2m-json-field > label {
+  color: #00C5D0;
+}
+.m2m-chip-item .remove {
+  position: absolute;
+  right: 3px;
+}
+.m2m-json-field .m2m-action {
+  margin-left: 2px;
+  margin-top: -2px;
+}
+
+.m2m-json-field .m2m-container {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}

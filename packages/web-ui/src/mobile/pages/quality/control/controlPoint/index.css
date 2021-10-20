@@ -1,0 +1,102 @@
+.add-photo {
+  box-shadow: none;
+  margin: none;
+  margin: 0;
+  border-radius: initial;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 15px 0px;
+  border-top: 1px solid #d3d3d3;
+}
+
+.measure-parent {
+  padding: 0;
+}
+
+.measure-child {
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.attachments {
+  box-shadow: none;
+  margin: none;
+  margin: 0;
+  border-radius: initial;
+  padding: 20px 0px 10px 0px;
+  border-top: 1px solid #d3d3d3;
+}
+
+.attachments-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: "100%";
+  margin: 0px 20px 10px 20px;
+}
+
+.start-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.switch-group {
+  display: flex;
+  width: 100%;
+  padding: 5px 15px 0px 15px;
+  justify-content: space-between;
+}
+
+.measure-point-title {
+  font-size: 15px !important;
+}
+
+.show-image {
+  width: 100px;
+  height: 100px;
+  margin-left: 16px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.dialog-title {
+  margin: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.compliant-switch
+  :checked
+  + .switch--material__toggle
+  > .switch--material__handle {
+  background-color: #3ac2d1;
+}
+
+.compliant-switch :checked + .switch--material__toggle,
+.compliant-switch :checked + .switch__toggle {
+  background-color: #00c5d0 !important;
+}
+
+.compliant-switch .switch--material__toggle,
+.compliant-switch :checked + .switch__toggle {
+  box-shadow: none !important;
+}
+.switch--material__handle{
+  background-color: rgb(211, 211, 211)
+}
+
+.switch--material__toggle{
+  background-color: rgb(211, 211, 211)
+}

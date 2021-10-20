@@ -1,0 +1,60 @@
+.customer-contacts-container, .event-assignedto-container, .event-partner-container, .form-field-container{
+  padding-top: 10px;
+  padding-bottom: 10px !important;
+  border-bottom: 1px solid #e8e8e8 !important;
+}
+
+.right-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address-text {
+  margin: 7px 0px !important;
+  line-height: 1em !important;
+}
+
+.lead-person-name, .lead-assigned-user {
+  text-align: center;
+}
+.principal-details-field {
+  margin: 0px;
+}
+
+.event-list-tab {
+  font-size: 9pt !important;
+  padding-right: 3px !important;
+}
+
+.swiper-view-loader {
+  background-color: rgba(255,255,255, .3) !important;
+}
+
+.swiper-view-loader .progress-circular--material__background {
+  stroke: #545454;
+}
+
+.dashlet-list-normal {
+  color: #616161;
+  font-size: 9pt;
+}
+
+.dashlet-list-head {
+  font-size: 9pt;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+.dashlet-row:nth-child(even) {
+  background-color: #F7F7F7;
+}
+.dashlet-row:nth-child(odd) {
+  background-color: initial;
+}
+.empty-activity-list {
+  text-align: center;
+  padding: 20px;
+  font-weight: 600;
+  background-color: rgb(247, 247, 247);
+}

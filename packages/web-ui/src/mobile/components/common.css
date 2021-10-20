@@ -1,0 +1,233 @@
+
+/* text input css*/
+.text-field-container {
+    margin-bottom: 17px;
+    border-bottom: 1px solid #ADAEAE;
+    display: flex;
+}
+
+.field-title {
+  display: inline-block;
+  padding-bottom: 0px !important;
+  line-height: 1.7em !important;
+  width: 35% !important;
+  color: rgba(178,178,178,1) !important;
+}
+
+.field-input {
+    display: inline-block;
+    flex: 1;
+    /* width: 100%; */
+}
+
+.field-text-input {
+    width: 100%;
+    height: 100%;
+}
+
+.highlight-error {
+  border-bottom: 1px solid rgb(185, 74, 72);
+}
+
+/* Search Input CSS */
+
+.search-container {
+    display: flex;
+    padding: 8px 10px;
+    background-color: #ECECEC;
+    margin: 0px auto;
+    border-radius: 25px;
+}
+
+.search-icon-container {
+position: absolute;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.search-input-container {
+    width: 100%;
+}
+
+.searchbar-icon {
+    font-size: 1.2rem !important;
+    color: #BEBEBE;
+}
+.searchbar {
+  text-align: center;
+}
+.page-content .searchbar {
+  padding: 0 20px;
+}
+
+.searchbar .search-input--material {
+  border-radius: 40px;
+  height: 40px;
+  box-shadow: none;
+  background-color: #eee;
+}
+
+.search-input-box {
+    text-align: center;
+    border: 0px !important;
+    background-color: #ECECEC;
+    width: 100%;
+    font-size: 1rem;
+}
+
+/* submit button css */
+
+.save-button {
+    border-radius: 20px !important;
+    width: 60% !important;
+    background-color: #3AC2D1 !important;
+}
+
+.save-button-container {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+/* Select Input css*/
+
+.select-input-field {
+    margin-left: 10px;
+    border-bottom: 0px !important;
+    width: 95% !important;
+}
+
+/* Text Area css */
+
+.textarea-text {
+  width: 100%;
+  border-radius: 0px;
+}
+
+/* Tabbar view common css */
+
+.activity-tab {
+  background-color: transparent !important;
+}
+
+.highlight-tab-button {
+  border-bottom: 2px solid #B24EF9;
+}
+
+.activity-tab-button {
+  color: #B24EF9 !important;
+  text-transform: none !important;
+}
+
+.ellipse-toolbar {
+  display: inline-block !important;
+  flex: 1;
+  text-overflow: initial !important;
+  overflow: auto;
+}
+
+/* list item css (for selection view)*/
+/* .new-customer-field .list-item {
+  padding: 0 !important;
+} */
+
+.new-customer-field .list-item {
+  padding: 0 !important;
+  padding-left: 10px !important;
+  margin-left: -10px;
+  padding-top: 10px !important;
+  margin-top: -10px;
+}
+.new-customer-field .list-item:before {
+  top: 42%;
+}
+.many-to-one {
+  font-size: 14;
+  padding: 5px 7px;
+  margin: 5;
+  width: 100%;
+  height: 100%;
+  padding-left: 0px;
+  margin-left: 0px;
+  min-height: 15px;
+  padding-top: 0px;
+}
+
+/* save button on header of form editor*/
+.save-customer-button {
+  border-radius: 20px;
+  width: 100% !important;
+  font-size: 14px;
+  padding: 0px;
+  background-color: #3AC2D1 !important;
+}
+
+
+.text-input-container {
+  width: 100%;
+  padding: 15px 0px;
+}
+
+.left-icon-width {
+  width: 10% !important;
+  min-width: auto;
+}
+
+.left-align-title {
+  text-align: left;
+}
+
+.center-align-title {
+  text-align: center !important;
+}
+
+.app-page .toolbar .toolbar__title {
+  top: 0 !important;
+}
+
+.swiper-slide:not(.swiper-slide-active) {
+  height: 0 !important;
+}
+
+/* ios specific css*/
+.app_ios .bottom-bar {
+  overflow: visible !important;
+}
+
+.app_ios .search-icon-container {
+  padding-top: 5px;
+}
+
+.app_ios .searh-input-box {
+  width: initial !important;
+}
+
+.app_ios .fixed-list {
+  margin-top: 15% !important;
+}
+
+.app_ios .left-icon-width {
+  width: 10% !important;
+  min-width: auto;
+}
+
+.app_ios .right-icons {
+  width: auto !important;
+}
+.app_ios .app-page .toolbar .toolbar__title {
+  flex: 1 !important;
+}
+
+@media screen and (device-aspect-ratio: 375/812) {
+  .app_ios .ax-searchbar {
+    top: 44px !important;
+  }
+  .app_ios .ax-tab-container {
+    top: 92px !important;
+  }
+}
+
+/* select input for status*/
+.status-select-input .select-input {
+  font-weight: 600;
+  font-size: 9pt;
+}

@@ -1,0 +1,87 @@
+.stats-chart {
+  /* height: 70%; */
+}
+
+.stats.page-content {
+  padding: 5% 10%;
+}
+
+.stats-chart {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-chart .stats-bars, .stats-chart .bar-container {
+  height: 100%;
+  position: relative;
+}
+.stats-chart .stats-bars {
+  border-bottom: 2px solid #ddd;
+}
+.stats-chart .stats-x {
+  width: 100%;
+  display: flex;
+}
+
+.stats-chart .stats-x > div {
+  flex: 1;
+  padding: 0 7px;
+  display: flex;
+  align-items: flex-end;
+}
+.stats-labels {
+  margin-top: 10px;
+}
+.stats-labels .bar-label {
+  justify-content: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.stats-chart .stats-bars .bar-container .bar {
+  background: #00A76A;
+  width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.bar-container .bar-title {
+  position: absolute;
+  width: 70%;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.4s ease-in-out;
+  bottom: 0;
+}
+.stats-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats-nav .fa {
+  font-size: 28px;
+  color: #00A76A;
+}
+
+.stats-nav div {
+  text-align: center;
+}
+
+.stats-nav h3, .stats-nav p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.stats-task-list {
+  margin-top: 30px;
+}
+.stats-task-list .stats-task {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin: 15px 5px;
+}
+
+.stats-task-list .stats-task.totals {
+  font-weight: bold;
+  font-size: 17px;
+}

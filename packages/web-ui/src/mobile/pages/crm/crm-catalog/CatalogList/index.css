@@ -1,0 +1,9 @@
+
+.customer-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-button-icon {
+  color: rgba(44, 196,211,1);
+}

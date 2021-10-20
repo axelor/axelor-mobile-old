@@ -1,0 +1,59 @@
+{
+  "name": "com.axelor.app.team",
+  "displayName": "TeamApp",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^8.0.0",
+    "cordova-android-support-gradle-release": "^1.4.2",
+    "cordova-open-native-settings": "1.5.2",
+    "cordova-plugin-call-number": "1.0.1",
+    "cordova-plugin-camera": "^2.4.1",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-console": "^1.0.7",
+    "cordova-plugin-datepicker": "^0.9.3",
+    "cordova-plugin-file": "^4.3.3",
+    "cordova-plugin-file-opener2": "^2.0.19",
+    "cordova-plugin-file-transfer": "^1.6.3",
+    "cordova-plugin-filepicker": "^1.1.5",
+    "cordova-plugin-inappbrowser": "^1.7.1",
+    "cordova-plugin-ionic-keyboard": "^2.1.3",
+    "cordova-plugin-native-keyboard": "^1.5.0",
+    "cordova-plugin-qr-barcode-scanner": "^8.0.3",
+    "cordova-plugin-splashscreen": "^4.0.3",
+    "cordova-plugin-whitelist": "^1.3.2",
+    "cordova-sqlite-storage": "^2.0.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-file-transfer": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-datepicker": {},
+      "cordova-plugin-file-opener2": {},
+      "cordova-plugin-console": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-camera": {},
+      "cordova-android-support-gradle-release": {
+        "ANDROID_SUPPORT_VERSION": "27.+"
+      },
+      "cordova-plugin-compat": {},
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-open-native-settings": {},
+      "cordova-plugin-call-number": {},
+      "cordova-plugin-qr-barcode-scanner": {
+        "ANDROID_SUPPORT_V4_VERSION": "27.+"
+      }
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}

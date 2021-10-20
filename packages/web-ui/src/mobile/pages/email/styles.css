@@ -1,0 +1,127 @@
+.mail {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 10% 0;
+}
+.mail-text {
+  margin-top: 5%;
+  font-size: 22px;
+}
+.mail-progress {
+  display: flex;
+}
+.progress-button {
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: 600;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mail .active {
+  color: #fff;
+  background-color: #86bc25;
+}
+.mail .not-active {
+  background-color: #ddd;
+  color: black;
+}
+.connector {
+  width: 35px;
+  margin: auto;
+}
+.mail-or {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.mail-button {
+  background-color: #ECECEC;
+  color: black;
+  border-radius: 15px;
+  font-weight: 600;
+  padding: 0 35px;
+}
+.mail-footer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.button.save-customer-button.send-mail {
+  width: 60% !important;
+  font-weight: 600;
+}
+.notification-message {
+  font-size: 25px;
+  text-align: center;
+}
+.notification-section {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-flow: column;
+  justify-content: center;
+}
+.content-editable-textarea {
+  min-height: 80px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  /* padding: 3px 5px 1px; */
+  outline: none !important;
+  border: 1px solid transparent !important;
+  display: inline-block;
+  border-top-color: #AFAFAF !important;
+  border-bottom-color: #AFAFAF !important;
+}
+.content-editable-textarea-placeholder {
+  font-size: 16px;
+  position: absolute;
+  display: none;
+  top: -3px;
+  left: 7px;
+}
+
+.template-list > div {
+  line-height: 1.2;
+}
+.field-title.email-field, .email-subject .field-title {
+  width: 25% !important;
+}
+.email-control .m2m-action{
+  margin-left: 0;
+}
+.mail.right {
+  min-width: 72px;
+}
+
+.model-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.mail-select-btn {
+  display: flex;
+  background-color: #ECECEC;
+  padding: 10px 35px;
+  border-radius: 50px;
+  color: black;
+  font-weight: 600;
+}
+
+.attachment-list-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.attachment-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+

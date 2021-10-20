@@ -1,0 +1,14 @@
+.address-header {
+  font-size: 18px;
+  color: #aeaeae;
+  margin: 0 8% 8% 8%;
+}
+
+.address-search .save-button {
+  background-color: #ccc !important;
+  color: black;
+}
+.new-customer-field {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #AEAEAE;
+}

@@ -1,0 +1,83 @@
+.form-container {
+  padding: 7%;
+}
+.form-field-input {
+  width: 100%;
+}
+.kmtype-radio {
+  /* width: 50%; */
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.form-field-spacing {
+  padding: 10px 0px;
+}
+.total-ati {
+  color: #515151;
+  font-size: 14px;
+}
+.hr-save-button {
+  color: black;
+  border-radius: 20px;
+  width: 100% !important;
+  font-size: 14px;
+  padding: 0px;
+  background-color: #EDEDEE;
+}
+.camera-text {
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+}
+.camera-container {
+  background-color: #3AC2D1;
+    padding: 15px 0px;
+    position: absolute;
+    width: stretch;
+    position: fixed;
+    bottom: 55px;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    -ms-flex-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.expense-switch :checked + .switch--material__toggle > .switch--material__handle {
+  background-color: #3AC2D1;
+}
+
+.expense-switch .switch--material__toggle, .expense-switch  :checked + .switch__toggle {
+  background-color: #00C5D0 !important;
+  box-shadow: none !important;
+}
+
+.textarea-container {
+  width: 100%;
+}
+
+.date-label {
+  position: inherit;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.switch-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px 30px 15px;
+  font-size: 9pt;
+  font-weight: 600;
+}
+
+.btn-second {
+  margin-right: 5px;
+}
+
+.title-name {
+  font-size: 11pt !important;
+  font-weight: 600;
+}

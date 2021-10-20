@@ -1,0 +1,32 @@
+
+.toolbar-container {
+  padding: 0.5rem 0;
+  border-top: 2px solid #eee;
+  display: flex;
+  flex-direction: row;
+}
+.toolbar-container.hide {
+  display: none;
+}
+.toolbar-group {
+  display: flex;
+  flex-direction: row;
+  margin: 0 5px;
+}
+.custom-editor {
+  height: 200px;
+  overflow: auto;
+  padding: 5px;
+}
+.ql-editor *, .editor-viewer *, .custom-editor * {
+  margin: initial;
+  text-align: initial;
+}
+.toolbar-group > * {
+  border: none;
+  background: transparent;
+}
+.toolbar-btn {
+  font-size: 14px;
+  width: 30px;
+}

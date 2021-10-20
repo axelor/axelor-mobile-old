@@ -1,0 +1,27 @@
+
+.product-item {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-item-name-field {
+  font-size: 17px;
+}
+
+.product-list-other-details {
+  color: #616161;
+  font-size: 14px;
+}
+
+.product-list {
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-top: 12%;
+}
+.loader-ui {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}

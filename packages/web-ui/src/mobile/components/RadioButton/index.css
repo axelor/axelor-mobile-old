@@ -1,0 +1,9 @@
+.radio-button-container {
+  display: inline-table;
+}
+
+.radio-label {
+  padding-left: 10px;
+  display: table-cell;
+  vertical-align: middle;
+}

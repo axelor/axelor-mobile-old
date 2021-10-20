@@ -1,0 +1,118 @@
+
+.data-list {
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-top: 2%;
+}
+
+.record {
+  margin-bottom: 5px;
+}
+.highlight-sync {
+  background: #eee;
+  border-radius: 10px;
+}
+.upload-sync,.save-offline {
+  position: absolute;
+  right: 5%;
+  top: 40%;
+  font-size: 25px;
+}
+
+.material-tab-button {
+  color: #9C27B0 !important;
+  text-transform: none !important;
+}
+
+.material-tab-label:active {
+  background-color: transparent !important;
+  border-bottom: 3px solid #9C27B0 !important;
+}
+
+.searchbar-fixed {
+  position: fixed !important;
+  width: 90%;
+  background-color: white;
+  z-index: 1000;
+}
+
+.list-tab-container {
+  margin-top: 21%;
+  padding-top: 10px;
+  position: fixed;
+  background-color: white !important;
+  z-index: 999;
+}
+
+.data-list-container {
+  margin-top: 12%;
+}
+
+.ts-record {
+  width: 100%;
+}
+
+.ts-record p {
+  margin: 0;
+}
+
+.ts-record .ts-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+.ts-record .ts-title.small {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.ts-record .ts-date {
+  text-align: right;
+  color: #666;
+}
+
+.ts-timer-block {
+  position: fixed;
+  bottom: 54px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ts-timer-block.init {
+  background: #00C5D0;
+}
+.ts-timer-block.pause {
+  background: #FF5722;
+}
+.ts-timer-block.running {
+  background: #00A76A;
+}
+.ts-timer-block > div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ts-timer-block .counter {
+  color: #fff;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 4%;
+}
+.ts-timer-block .start {
+  color: #fff;
+  font-weight: bold;
+  height: 100%;
+  padding: 0 15px;
+  justify-content: flex-end;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.ts-timer-block .start .fa {
+  margin: 0 10px;
+  margin-top: -1px;
+}

@@ -1,0 +1,53 @@
+.customer-detail-view {
+  padding: 6% 8%;
+}
+
+.customer-basic-detail {
+  padding-top: 5px;
+  padding-left: 8%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+.customer-contacts-container, .customer-assignedto-container {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #E9E9E9;
+}
+
+.activity-tab {
+  background-color: transparent !important;
+}
+
+.activity-label:active {
+  background-color: transparent !important;
+  border-bottom: 2px solid #B24EF9 !important;
+}
+
+.activity-tab-button {
+  color: #B24EF9 !important;
+  text-transform: none !important;
+}
+
+.activities-list {
+  min-height: 100px;
+}
+
+.checkbox{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.note-container {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.new-customer-partner-container .list-item--material,
+.new-customer-partner-container .list-item {
+  padding: 0px;
+}
+.address-list .list-item--material{
+  padding: 0;
+}

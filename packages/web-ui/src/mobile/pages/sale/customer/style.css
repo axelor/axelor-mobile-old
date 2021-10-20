@@ -1,0 +1,32 @@
+.partner .assignTo .industry {
+  display: flex;
+  align-items: center;
+}
+
+.new-customer-detail-view {
+  padding: 7%;
+}
+
+.new-customer-input {
+  width: 100%;
+  height: 100%;
+}
+
+.new-customer-basic-detail, .new-customer-partner-container, .new-customer-postal-adress {
+  margin-bottom: 20px;
+}
+
+.new-customer-type {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.new-customer-assignedto-container {
+  margin-bottom: 20px;
+}
+.m2o_placeholder {
+  color: #b0b0b0;
+}
+.activities-list-sale {
+  min-height: 100px;
+}

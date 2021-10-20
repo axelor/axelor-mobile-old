@@ -1,0 +1,129 @@
+
+.timeline-page {
+  margin-top: 40px;
+  position: relative;
+}
+.timeline-container {
+  padding: 1% 7%;
+  padding-top: 90px;
+}
+.timeline-content {
+  display: flex;
+}
+.time-block {
+  border-right: 1px solid #CDCDCD;
+  width: 20%;
+  font-size: 11pt;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+.header-time {
+  width: 20%;
+  font-size: 11pt;
+  font-weight: 600;
+  padding-bottom: 7%;
+}
+.line-block {
+  flex: 1;
+  position: relative;
+}
+.line-card {
+  margin: 2px 10px;
+  position: absolute;
+  width: 90%;
+}
+
+.datebar-container {
+  display: flex;
+  border-bottom: 1px solid #EDEDED;
+  align-items: center;
+  padding: 3% 3% 2% 3%;
+  margin-bottom: 20px;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+  justify-content: space-between;
+  top: 80px;
+}
+
+.app_android .datebar-container {
+  top: 96px;
+}
+
+.bar-date {
+  margin-left: 7%;
+  font-size: 15px;
+}
+
+.bar-icon {
+  font-size: 20px;
+  position: absolute;
+  right: 7%;
+  pointer-events: none;
+}
+
+.hidden-date-input {
+  visibility: hidden;
+  width: 0%;
+  border: none;
+  padding: unset;
+}
+
+.planning-line-primary {
+  font-size: 11pt;
+  margin-bottom: 5%;
+}
+
+.planning-line-secondary {
+  font-size: 9pt;
+  padding-bottom: 2px;
+  font-weight: 500;
+}
+
+.planning-line-info {
+  padding-top: 1%;
+  width: 100%;
+  padding-bottom: 1%;
+}
+
+.current-planning-primary {
+  color: #e4aa3a;
+}
+
+.current-planning-card {
+  background-color: rgba(228,170,58,0.25);
+}
+
+.select-filter {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  padding-right: 12%;
+  background-color: transparent;
+  font-weight: 600;
+  padding-left: 7%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.month-view {
+  margin-top: 90px;
+}
+
+.task-list-item {
+  margin: 0px 15px;
+}
+
+.task-list-item-border {
+  border-bottom: 1px solid #EDEDED;
+}
+
+.chronological-tag {
+  margin: 7%;
+  color: #EEAB56;
+  font-size: 16px;
+  font-style: oblique;
+}

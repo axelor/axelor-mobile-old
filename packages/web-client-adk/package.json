@@ -1,0 +1,20 @@
+{
+  "name": "@axelor/web-client-adk",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@axelor/web-client": "^0.1.0",
+    "react-scripts": "1.1.1"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "prepublish": "babel --plugins transform-runtime,transform-object-rest-spread src --presets babel-preset-es2015 --out-dir ./lib --copy-files"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}

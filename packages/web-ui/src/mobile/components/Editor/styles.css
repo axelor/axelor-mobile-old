@@ -1,0 +1,76 @@
+/* .rdw-editor-wrapper {
+  position: relative;
+}
+.rdw-editor-toolbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.4);
+  padding: 10px 7px;
+  flex-wrap: nowrap;
+}
+.form-control-ui-icon {
+  color: rgb(189, 189, 189);
+  font-size: 22px;
+  padding: 0px;
+  margin-right: 7px;
+  width: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.see-more-comment{
+  margin-left: 10px;
+  font-size: 16px;
+  background: #eee;
+  color: black;
+  padding: 5px;
+}
+.rdw-option-wrapper {
+  border: none;
+  padding: 1px;
+  min-width: 22px;
+  box-shadow: none;
+  margin: 0 5px;
+}
+.rdw-link-dropdown {
+  width: 45px;
+}
+.rdw-list-dropdown {
+  width: 45px;
+}
+[title=Outdent].rdw-option-wrapper, [title=Indent].rdw-option-wrapper, .rdw-emoji-wrapper, .rdw-remove-wrapper {
+  display: none;
+} */
+
+.rdw-image-wrapper .rdw-image-modal {
+  top: inherit;
+  bottom: 40px;
+  left: inherit;
+  right: -50px;
+}
+.ql-container.ql-snow {
+  height: 240px;
+}
+.ql-toolbar.ql-snow .ql-formats {
+  margin-right: 0px !important;
+}
+.ql-snow .ql-picker.ql-header {
+  width: 90px !important;
+}
+.ax-base-draft-editor {
+  min-height: 500px;
+  border: 1px solid #eee;
+  margin-top: -7px;
+  border-top: none;
+  padding: 10px;
+  }
+  
+  .ax-base-draft-editor-viewer div {
+  width: 100%;
+  }
+  .ax-base-draft-editor-viewer p {
+  margin: 1em;
+  min-height: 18px;
+  }
+  

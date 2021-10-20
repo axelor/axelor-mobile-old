@@ -1,0 +1,33 @@
+.Select-control {
+  border: none;
+  background-color: transparent;
+}
+
+.Select--multi .Select-value {
+  color: black;
+  font-weight: 600;
+  font-size: 12px;
+  background-color: #ddd;
+  border: none;
+  padding: 2px;
+  border-radius: 5px;
+  margin-left: 0px !important;
+  margin-right: 5px !important;
+  display: inline-flex;
+}
+
+.Select--multi .Select-value-icon {
+  border-right: solid 1px #eee;
+  font-size: 15px;
+  padding: 0px 3px;
+}
+
+.m2m-label {
+  font-size: 9pt !important;
+  font-weight: 600;
+  color: #D3D3D3;
+}
+
+.Select-menu-outer {
+  z-index: 6;
+}

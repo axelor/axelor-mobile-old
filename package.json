@@ -1,0 +1,42 @@
+{
+ "scripts": {
+  "start": "lerna run start --scope web-ui",
+  "test": "lerna run test --scope web-ui",
+  "start-hr": "lerna run start --scope web-hr-ui",
+  "build": "lerna run prepublish --scope '@axelor/*' && lerna bootstrap"
+ },
+ "devDependencies": {
+  "babel-cli": "^6.24.1",
+  "babel-core": "6.22.1",
+  "babel-eslint": "7.1.1",
+  "babel-jest": "18.0.0",
+  "babel-loader": "6.2.10",
+  "babel-plugin-import": "^1.2.1",
+  "babel-plugin-transform-object-assign": "^6.22.0",
+  "babel-plugin-transform-object-rest-spread": "^6.23.0",
+  "babel-plugin-transform-runtime": "^6.23.0",
+  "babel-preset-es2015": "^6.24.1",
+  "babel-preset-react": "^6.24.1",
+  "babel-preset-react-app": "^2.1.1",
+  "babel-runtime": "^6.20.0",
+  "jest": "^21.2.1",
+  "lerna": "^2.5.1",
+  "redux-devtools": "^3.4.1"
+ },
+ "dependencies": {
+  "draft-js": "^0.10.5",
+  "draftjs-to-html": "^0.8.4",
+  "html-to-draftjs": "^1.4.0",
+  "lodash.debounce": "^4.0.8",
+  "lodash.merge": "^4.6.1",
+  "moment": "^2.19.4",
+  "react-autosize-textarea": "^3.0.3",
+  "react-draft-wysiwyg": "^1.12.13",
+  "react-dynamic-swiper": "^1.1.2",
+  "react-redux": "^5.0.6",
+  "react-select": "^1.0.1",
+  "react-sortable-hoc": "^1.8.3",
+  "redux": "^3.7.2",
+  "signature_pad": "2.3.2"
+ }
+}

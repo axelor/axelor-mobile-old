@@ -1,0 +1,57 @@
+
+.timer-actions {
+  position: fixed;
+  bottom: 54px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #00C5D0;
+  font-size: 18px;
+}
+
+.timer-actions > div {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timer-actions .pause, .timer-actions .stop, .timer-actions .start {
+  color: #fff;
+  font-weight: bold;
+  height: 100%;
+  padding: 0 15px;
+  cursor: pointer;
+}
+.timer-actions.resume {
+  background: #FF5722;
+}
+.timer-actions .pause {
+  justify-content: flex-start;
+}
+.timer-actions .stop {
+  justify-content: flex-end;
+}
+.timer-actions .start {
+  justify-content: flex-end;
+}
+.timer-actions .fa {
+  margin: 0 10px;
+  margin-top: -1px;
+}
+.timer-interval {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.timer-interval span {
+  margin-bottom: 25%;
+  font-weight: bold;
+  font-size: 50px;
+  color: #000;
+}
+.timer.page-content {
+  height: 100%;
+}

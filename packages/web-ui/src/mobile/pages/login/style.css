@@ -1,0 +1,63 @@
+.login-page .page__background {
+  background: #132740;
+}
+.login-page .page__content {
+  padding: 10% 5%;
+}
+.login-page .login-title {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.login-page .login-form {
+  margin-top: 30px;
+  text-align: center;
+}
+.login-page .login-form-group {
+  width: 100%;
+  margin: 10px 0;
+}
+.login-page .login-form-group > *{
+  width: 90% !important;
+}
+
+.login-page .login-form-group input {
+  color: #fff;
+}
+
+.login-page .form-input {
+  width: 100%;
+  margin: 12px;
+}
+.login-page .select.form-input {
+  margin: 0 12px 12px;
+}
+.login-page .text-input--material__label--active {
+  color: #fff !important;
+}
+.login-page .text-input--material:focus {
+  background-image: linear-gradient(#eee, #ddd),
+    linear-gradient(to top, transparent 1px, #afafaf 1px);
+}
+.login-page .button {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.login-page .button, .login-page .button--material:active {
+  background: #fff;
+  color: #132740;
+}
+.login-page .button--large:disabled, .login-page .button--large[disabled] {
+  background: #555;
+}
+
+.auth-modal .progress-circular--material__primary {
+  stroke: #fff;
+}
+
+.app_ios .login-button {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,32 @@
+.work-center-icon {
+  margin-right: 5px;
+}
+.tags-view {
+  display: flex;
+}
+.tags-item {
+  margin-right: 5px !important;
+}
+.operation-order-row {
+  flex: 1;
+}
+.row-field {
+  margin-bottom: 10px !important;
+}
+.row-info-item {
+  flex: 1;
+}
+.resource-tab-container {
+  margin-bottom: 20px;
+}
+.object-descrioption-container {
+  margin-top: 15px;
+  border-bottom: 1px solid rgba(227,227,227, 0.6);
+}
+.instock-move-item-print-view {
+  display: flex;
+  padding: 12px 0px;
+}
+.consume-product-container {
+  margin-top: 15px;
+}

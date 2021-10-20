@@ -1,0 +1,38 @@
+
+.description-container{
+  margin-top: 20px;
+}
+.product-info{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.product-info-detail{
+  margin-top: 5px;
+  margin-bottom: 0%;
+  color: black;
+  font-weight: 600;
+}
+.product-info-detail-title{
+  margin-top: 5px;
+  margin-bottom: 0%;
+  color: black;
+  font-weight: bolder;
+}
+.product-description{
+  padding-top: 10px;
+  min-height: 75px;
+}
+.picture-container {
+  position: relative;
+}
+.remove-picture-icon-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1px 1px 3px 3px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.remove-picture-icon {
+  font-size: 20px;
+  color: white;
+}

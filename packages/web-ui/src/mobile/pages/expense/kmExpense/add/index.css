@@ -1,0 +1,24 @@
+.form-container {
+  padding: 7%;
+}
+.form-field-input {
+  width: 100%;
+}
+.kmtype-radio {
+  flex: 1;
+}
+.form-field-spacing {
+  padding: 10px 0px;
+}
+.total-ati {
+  color: #515151;
+  font-size: 14px;
+}
+.hr-save-button {
+  color: black;
+  border-radius: 20px;
+  width: 100% !important;
+  font-size: 14px;
+  padding: 0px;
+  background-color: #EDEDEE;
+}

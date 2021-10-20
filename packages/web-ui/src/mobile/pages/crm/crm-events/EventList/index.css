@@ -1,0 +1,65 @@
+.customer-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.customer-item-name-field {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.5em !important;
+}
+
+.event-list {
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-top: 2%;
+}
+
+.record {
+  margin-bottom: 5px;
+}
+.highlight-sync {
+  background: #eee;
+  border-radius: 10px;
+}
+.upload-sync,.save-offline {
+  position: absolute;
+  right: 5%;
+  top: 40%;
+  font-size: 25px;
+}
+
+.highlight-list-tab-button {
+  border-bottom: 2px solid rgb(44, 196, 211);
+}
+
+.activity-list-tab-button {
+  color: rgb(44, 196, 211) !important;
+  text-transform: none !important;
+}
+
+.activity-list-label:active {
+  background-color: transparent !important;
+  border-bottom: 2px solid rgb(44, 196, 211) !important;
+}
+
+.searchbar-fixed {
+  position: fixed !important;
+  width: 90%;
+  background-color: white;
+  z-index: 1000;
+}
+
+.list-tab-container {
+  margin-top: 21%;
+  padding-top: 10px;
+  position: fixed;
+  background-color: white !important;
+  z-index: 999;
+}
+
+.fixed-list {
+  margin-top: 25%;
+}
+
