@@ -247,16 +247,6 @@ class ExpenseEditor extends Component {
 
   validateData(expense) {
     let isValid = true;
-    if (!expense.project) {
-      this.setState({
-        submitError: {
-          title: translate("Alert.saveErrorTitle"),
-          content: translate("app.expense.require_project")
-        }
-      });
-      isValid = false;
-      return isValid;
-    }
     if (!expense.expenseProduct) {
       this.setState({
         submitError: {

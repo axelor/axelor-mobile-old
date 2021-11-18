@@ -13,11 +13,11 @@ export default class ExpenseLineAPI extends BaseAPI {
       "toInvoice": data.toInvoice,
       "comments": data.comments,
       "expenseType": data.expenseProduct.id,
-      "project": data.project.id,
       "unTaxTotal": data.totalAmount,
       "taxTotal": data.totalTax,
       "amountWithoutVat": data.untaxedAmount,
       "justification": data.justification,
+      ...(data.project && {project: data.project.id}),
     }))
     .then((res) => res.json())
     .then((res) => {
@@ -37,11 +37,11 @@ export default class ExpenseLineAPI extends BaseAPI {
       "toInvoice": data.toInvoice,
       "comments": data.comments,
       "expenseType": data.expenseProduct.id,
-      "project": data.project.id,
       "unTaxTotal": data.totalAmount,
       "taxTotal": data.totalTax,
       "amountWithoutVat": data.untaxedAmount,
       "justification": data.justification,
+      ...(data.project && {project: data.project.id}),
     }))
     .then((res) => res.json())
     .then((res) => {
