@@ -393,6 +393,7 @@ class ViewQuotation extends PageCommentList {
     const { orderForm, recordList } = this.state;
     const { update, add } = this.props.order;
     const { updateQuotation, addQuotation } = this.props.route;
+    const { info } = this.props.user_data.data;
     if (!orderForm.status_select) {
       orderForm.statusSelect = 3;
     }
@@ -410,6 +411,17 @@ class ViewQuotation extends PageCommentList {
           },
           () => this.renderAlertBox()
         );
+      }
+
+      if (Number(record.status_select) === 3) {
+        if (!record.confirmed_by_user) {
+          record.confirmed_by_user = {
+            id: info["user.id"]
+          };
+        }
+        if (!record.confirmation_date_time) {
+          record.confirmation_date_time = moment().format("YYYY-MM-DDTHH:mm");
+        }
       }
       update(record)
         .then(result => {
@@ -432,6 +444,14 @@ class ViewQuotation extends PageCommentList {
           console.log(err);
         });
     } else {
+      if (Number(orderForm.status_select) === 3) {
+        orderForm.confirmation_date_time = moment().format(
+          "YYYY-MM-DDTHH:mm"
+        );
+        orderForm.confirmed_by_user = {
+          id: info["user.id"]
+        };
+      }
       add(orderForm)
         .then(res => {
           if (res.status === -1) {
