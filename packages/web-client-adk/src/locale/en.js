@@ -57,7 +57,7 @@ export default {
     subjectRequired: 'Subject field required!!!',
     typeRequired: 'Event type required',
     startDateRequired: 'Start date time required!!!',
-    nameRequired: 'name field required!!!',
+    nameRequired: 'Name field required!!!',
     confirmDelete: 'Do you want to delete this record(s)?',
     confirmCommentDelete: 'Do you want to delete this comment ?',
     confirm: 'Confirm',
@@ -74,7 +74,7 @@ export default {
     endControlTitle:"End control",
     endControlHeader:"Do you have any corrective actions ?",
     noButton:'No',
-    pdfRequired: 'pdf file required',
+    pdfRequired: 'Pdf file required',
     timesheetLineSuccess: 'Timesheet line created',
     scanError: "Scan Error",
   },
@@ -177,10 +177,10 @@ export default {
   },
   Task: {
     name: "Name",
-    taskEndDate: "TaskEndEate",
+    taskEndDate: "Due date",
     taskDate: "TaskDate",
     priority: "Priority",
-    status: "status",
+    status: "Status",
     description:"Description",
     parentTask: "Parent Task",
     project: "Project",
@@ -213,6 +213,7 @@ export default {
     relatedTo2Select: 'Related To',
     select: 'Select',
     comment: 'Comment',
+    information:"Information",
     commentPlaceholder: 'Write about it',
     alert: {
       toEmailAddressSet: "Email can't be sent because To Email Address is empty",
@@ -251,10 +252,11 @@ export default {
     description: 'Description',
     internalDescription: 'Internal description',
     sellable: 'Sellable',
+    details:"Details"
   },
   Unit: {
-    labelToPrinting: 'lable_to_printing',
-    unitTypeSelect: 'unit_type_select',
+    labelToPrinting: 'Label To Printing',
+    unitTypeSelect: 'Unit type',
   },
   Partner: {
     name: 'Name',
@@ -322,10 +324,10 @@ export default {
     currency: 'Currency',
     company: 'Company',
     statusSelect: 'Status',
-    saleOrderSeq:'saleOrderSeq',
+    saleOrderSeq:'Internal Number',
     cancelReason: 'Cancel reason',
-    confirmationDateTime: 'confirmationDateTime',
-    confirmedByUser:'confirmedByUser'
+    confirmationDateTime: 'Confirmation date',
+    confirmedByUser:'Confirmed by'
   },
   common: {
     customerTitle: 'Customers',
@@ -408,8 +410,8 @@ export default {
       selectSalesman: 'Select Salesman...',
       selectPaymentCondition: 'Select Payment Condition...',
       selectPaymentMode: 'Select Payment Mode...',
-      selectLanguage: 'select Language....',
-      selectAddress: 'select address'
+      selectLanguage: 'Select Language....',
+      selectAddress: 'Select address'
     },
     header: {
       contactDetails: 'Contact Details',
@@ -446,8 +448,8 @@ export default {
       name: 'Name',
       quantity: 'Quantity',
       price: 'Rate',
-      exTaxTotal: 'exTaxTotal',
-      inTaxTotal: 'inTaxTotal'
+      exTaxTotal: 'Total W.T.',
+      inTaxTotal: 'Total A.T.I'
     },
     addNewAddress: 'Add a new address',
     addNewContact: 'New contact',
@@ -526,6 +528,13 @@ export default {
       title: 'Language',
       en: 'English',
       fr: 'French',
+      de:"German",
+      it:"Italian",
+      nl:"Dutch",
+      es:"Spanish",
+      pl:"Polish",
+      pt:"Portuguese",
+      ru:"Russian"
     },
     configuration: 'Configuration',
     crm: {
@@ -547,7 +556,7 @@ export default {
         customers: 'Customers',
         contacts: 'Contacts',
         quotations: 'Quotations',
-        sale_orders: 'Sales Orders',
+        sale_orders: 'Sales orders',
         products: 'Products',
         configuration: 'Config',
       },
@@ -689,8 +698,8 @@ export default {
         title: 'Add Leave',
         fromDate:'From Date',
         statusSelect:'status select',
-        startOnSelect:'startOnSelect',
-        endOnSelect:'EndOnSelect',
+        startOnSelect:'Start On',
+        endOnSelect:'End On',
         duration: 'Duration',
         endDate:'To Date',
         company:'Company',
@@ -709,7 +718,7 @@ export default {
         canceled : 'Canceled',
       },
       edit: {
-        title: 'Edit Leave',
+        title: 'Edit leave',
       },
       filter: {
         all: 'All',
@@ -762,12 +771,12 @@ export default {
       bottomBarLabelEndControl:"End control",
       team:"Team",
       product:"Product",
-      controlPointList:"controlPointList",
-      optionalControlPointList:"optionalControlPointList",
+      controlPointList:"Control points",
+      optionalControlPointList:"Optional control point list",
       chooseQualityProcess:'Choose quality process',
       chooseProject: 'Choose project',
-      addOptionalControlPoint:'Add optionnal control point',
-      qualityCorrectiveActionList:"QualityCorrectiveActionList",
+      addOptionalControlPoint:'Add optional control point',
+      qualityCorrectiveActionList:"Corrective actions list",
       todo: "To do",
       done: "Done",
       correctiveActions:"Corrective actions",
@@ -778,7 +787,7 @@ export default {
       errorOthers: 'Something goes wrong',
       signature:"Signature",
       customerSignature:"Customer",
-      inspectorSignature:"inspector",
+      inspectorSignature:"Inspector",
       customerAddress: "Address",
       today: "Today",
       week: "Week",
@@ -790,6 +799,7 @@ export default {
       noControlPointType: "No types",
       endControlError: "To end a control, all control point must be marked as done.",
       controlPointTab: "Control point list",
+      searchByProcess: "Search by Process ",
       controlPoint:{
         name: "Location's precision",
         team: "Team",
@@ -800,7 +810,7 @@ export default {
       measurePoint:{
         name: "Location's precision",
         measuringNote: "Note",
-        compliant: "isOpen",
+        compliant: "Is Open",
         photosList: "Photos",
         observations: "Observations",
         compliant: "Compliant",
@@ -829,9 +839,9 @@ export default {
       title: "Sign Here",
     },
     Project:{
-      name:"name",
+      name:"Name",
       fullName:"fullName",
-      membersUserSet:"membersUserSet",
+      membersUserSet:"Members",
       contactPartner:"Contact Partner",
       clientPartner:"Client Partner"
     },

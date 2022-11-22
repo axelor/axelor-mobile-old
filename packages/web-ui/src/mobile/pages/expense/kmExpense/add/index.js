@@ -665,7 +665,7 @@ class KMExpenseEditor extends Component {
             </div>
           )}
         </CardView>
-        <Panel headerTitle="Information">
+        <Panel headerTitle={translate("Message.information")}>
           <CardView>
             <RenderManyToOne
               name="project"

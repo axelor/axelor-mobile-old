@@ -1088,7 +1088,7 @@ class ViewContact extends PageCommentList {
             />
           </CardView>
 
-          <CardView title="Notes" hidden={activeTab1 !== 3}>
+          <CardView title={<Translate text="notes" />} hidden={activeTab1 !== 3}>
             <CardView.TextArea
               edit={this.state.edit}
               value={contact.description}

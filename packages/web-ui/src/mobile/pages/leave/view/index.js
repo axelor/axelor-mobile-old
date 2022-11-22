@@ -681,7 +681,7 @@ class LeaveView extends Component {
 
         <div style={{ paddingTop: "30px" }}>
           <Tabs
-            tabs={[{ title: "Information", value: 1 }]}
+            tabs={[{ title: translate("Message.information"), value: 1 }]}
             activeTab={this.state.activeTab}
             onChange={e => this.setState({ activeTab: e })}
           />

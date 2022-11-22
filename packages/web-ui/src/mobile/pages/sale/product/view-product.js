@@ -676,7 +676,7 @@ class ViewProduct extends PageCommentList {
                   value={product && product.name}
                 />
                 <CardView.Number
-                  title={getField("sale_price")}
+                  title={<Translate text="Product.salePrice" />}
                   onChange={e => this.changeField("sale_price", e.target.value)}
                   value={product.sale_price || ""}
                   edit={this.state.edit}
@@ -695,7 +695,7 @@ class ViewProduct extends PageCommentList {
         </CardView>
         <TabberView>
           <TabberView.Tab
-            title="Details"
+            title={<Translate text="event_details" />}
             active={this.state.activeTab2 === 3}
             activeColor="#2187d4"
             onClick={() => this.setState({ activeTab2: 3 })}

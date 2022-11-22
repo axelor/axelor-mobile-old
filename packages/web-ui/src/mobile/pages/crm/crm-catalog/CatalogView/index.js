@@ -749,7 +749,7 @@ class CatalogView extends PageCommentList {
                     verticalAlign: "middle",
                   }}
                 >
-                  Upload picture
+                  <Translate text="common.uploadPicture" /> 
                 </span>
               </div>
             )}

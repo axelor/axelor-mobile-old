@@ -184,6 +184,27 @@ class ConfigPage extends Component {
                   <option value="fr">
                     {translate("app.language.fr")}
                   </option>
+                  <option value="de">
+                    {translate("app.language.de")}
+                  </option>
+                  <option value="it">
+                    {translate("app.language.it")}
+                  </option>
+                  <option value="nl">
+                    {translate("app.language.nl")}
+                  </option>
+                  <option value="es">
+                    {translate("app.language.es")}
+                    </option>
+                  <option value="pl">
+                    {translate("app.language.pl")}
+                  </option>
+                  <option value="pt">
+                    {translate("app.language.pt")}
+                  </option>
+                  <option value="ru">
+                    {translate("app.language.ru")}
+                  </option>
                 </Select>
               </div>
               <div className="config-page switch-color">

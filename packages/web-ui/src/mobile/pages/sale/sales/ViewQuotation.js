@@ -402,7 +402,7 @@ class ViewQuotation extends PageCommentList {
         this.setState(
           {
             submitError: {
-              title: "Information",
+              title:translate("Message.information"),
               content: "The sale order was canceled"
             },
             showErrorDialog: true,

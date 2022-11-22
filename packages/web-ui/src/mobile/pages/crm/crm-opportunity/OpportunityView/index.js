@@ -468,7 +468,7 @@ class OpportunityView extends PageCommentList {
             onClick={() => this.onBackButtonClick()}
             style={{ display: "inline-block" }}
           >
-            {opportunity.name || "Opportunity"}
+            {<Translate text="opportunity_title" /> || "Opportunity"}
           </span>
         </div>
         <div
