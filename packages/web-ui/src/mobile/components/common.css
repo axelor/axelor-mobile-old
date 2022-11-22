@@ -181,7 +181,20 @@ padding-right: 10px;
 }
 
 .app-page .toolbar .toolbar__title {
-  top: 0 !important;
+  font-size: 21px;
+  font-weight: bold;
+  position: relative;
+  top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.app-page .toolbar .toolbar__title > span {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .swiper-slide:not(.swiper-slide-active) {
@@ -212,9 +225,6 @@ padding-right: 10px;
 
 .app_ios .right-icons {
   width: auto !important;
-}
-.app_ios .app-page .toolbar .toolbar__title {
-  flex: 1 !important;
 }
 
 @media screen and (device-aspect-ratio: 375/812) {

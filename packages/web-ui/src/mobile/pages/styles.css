@@ -16,8 +16,9 @@
   font-weight: bold;
   position: relative;
   top: 2px;
-  display: flex;
-  justify-content: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .app-tabbar {
@@ -30,14 +31,13 @@
 
 .app-tabbar-item {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 3px 13px 0;
   min-width: 50px;
-}
-.app-tabbar-item.main {
-  /* flex: 1; */
+  max-width: 100%;
 }
 .app-tabbar-item.active {
   color:#00E5FF;
@@ -47,6 +47,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
 }
 .app-tabbar-item .tab-item .tab-item-icon {
   font-size: 18px;
@@ -72,7 +73,10 @@
 }
 .app-tabbar-item .tab-item.tab-button .tab-item-title {
   font-size: 12px;
-  display: none;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .app-tabbar-item .tab-item.tab-button .tab-item-icon {
   margin-bottom: 0;
@@ -82,6 +86,10 @@
 
 .app-tabbar-item .tab-item .tab-item-title {
   font-size: 12px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .app-modal {
@@ -535,4 +543,15 @@ p.ax-p.leave-line-status.Refused {
 .sorting-item-icon {
   color: rgb(44, 196, 211);
   font-size: 1.5rem;
+}
+
+.ax-searchbar > ::placeholder {
+  max-width: 75%;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  padding-left: 2.5rem;
+}
+
+.ax-searchbar > :placeholder-shown {
+  text-overflow: ellipsis;
 }
