@@ -13,7 +13,11 @@ import DateBar from "../../../task/Planned/TimelineView/DateBar";
 import { translate } from "../../../../locale";
 
 import { Icon } from "react-onsenui";
-import "moment/locale/fr";
+import "moment/min/locales";
+
+moment.updateLocale("pt", {
+  weekdaysMin: "dom._seg._ter._qua._qui._sex._sáb.".split("_"),
+});
 
 export class ControlList extends PageListTabsComponent {
   constructor(props) {

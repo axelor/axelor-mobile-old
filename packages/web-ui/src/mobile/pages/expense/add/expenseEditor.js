@@ -539,7 +539,7 @@ class ExpenseEditor extends Component {
             </div>
           )}
         </CardView>
-        <Panel headerTitle="Information">
+        <Panel headerTitle={translate("Message.information")}>
           <CardView>
             <CardView.TextArea
               title={translate("app.expense.comments")}

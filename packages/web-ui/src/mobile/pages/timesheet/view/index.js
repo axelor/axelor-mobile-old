@@ -599,12 +599,12 @@ class TimesheetView extends Component {
 
         <div style={{ paddingTop: "30px" }}>
           <Tabs
-            tabs={[{ title: "Information", value: 1 }]}
+            tabs={[{ title: translate("Message.information"), value: 1 }]}
             activeTab={this.state.activeTab}
             onChange={e => this.setState({ activeTab: e })}
           />
 
-          <CardView title="Comment">
+          <CardView title={<Translate text="Message.comment"/>}>
             <CardView.TextArea
               edit={this.state.edit}
               value={row.comments}

@@ -20,7 +20,7 @@ export class ProcessList extends PageListComponent {
   }
 
   renderListSearch() {
-    return super.renderListSearch({ placeholder: "Search by Process" });
+    return super.renderListSearch({ placeholder: translate("app.quality.searchByProcess") });
   }
 
   onBackButtonClick() {
