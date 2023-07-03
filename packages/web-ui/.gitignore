@@ -26,3 +26,7 @@ yarn-error.log*
 /public_app/plugins
 /public_app/www
 /public_app/icons-android.zip
+/public_app/build.json
+/public_app/axelor-apps.keystore
+/public_app/axelor-apps.pem
+/public_app/axelor-apps.private.key

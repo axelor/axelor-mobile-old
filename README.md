@@ -1,102 +1,96 @@
-# prerequisites
+# Axelor Apps
 
-Your laptop/machine must have these setup:
+⚠️ This application is no longer maintained. It is replaced by Axelor Open Mobile as of version 6.4.0 of Axelor Open Suite. ⚠️
 
-1. node & npm
+## About
 
-```
-Download & setup node software.
-https://nodejs.org/en/
+### Technologies
 
-```
+- [React](https://reactjs.org/) as JS library for front-end.
+- [Cordova](https://cordova.apache.org/) as mobile framework.
+- [Lerna](https://lerna.js.org/) as multi-package build tools.
 
-2. cordova - Install cordova cli using this command
+### Packages
 
-```
-sudo npm install -g cordova
-```
+- web-client: Providing abstraction classes, interfaces and React HOC (Redux-connector) for manage models coming from AOP-like WebService.
+- web-client-adk: First implementation of web-client for AOP with basic models from AOS.
+- web-client-adk-module: Extension of web-client-adk.
+- web-ui: Main application build in React
+  - web-ui/public_app: Cordova application
 
-3. lerna - Install lerna
+## Install
 
-```
-npm install -g lerna
-```
-
-## Installation & project run instructions
-
-1. Clone project from git.
-2. Now you need to install packages so run below command:
-
-```
+```bash
 npm install
+npx lerna run prepublish
+npx lerna bootstrap -- --legacy-peer-deps
 ```
 
-3. Now you need to build project so run below command:
+## Start
 
-```
-npm run build
-```
+For start the project in development environment (react in browser), you can run:
 
-If you don't have lerna then you need to install it via below command:
-
-```
-npm install -g lerna
-```
-
-After installing command you need to run again build command (Point 3).
-
-4. Now Project is ready to run:
-   To run project use below command,
-
-```
+```bash
+cd packages/web-ui
 npm start
 ```
 
-Note: You can also use yarn commands if you don't want to use npm.
+If you have edited files in a `web-client[-xxx]` directory, you should rerun `npx lerna run prepublish` for apply change in `web-ui`.
 
-## APK generation & signing instructions:
+## Build
 
-Follow below steps to build an apk:
-
-1. Go To root of project and run below command:
-
-```
-npm run build
-```
-
-2. Now go to web ui folder & build it:
-
-```
+```bash
 cd packages/web-ui
-
 npm run build
 ```
 
-3. After this go to public_app folder:
+### Android
 
-```
-cd public_app
-```
+#### Requirements
 
-4. Here you need to add cordova platform (one time only):
+- Java 8
+- Gradle
 
-```
-cordova platform add android
-```
+#### Install
 
-5. Then build apk using these command, 
-
-Note: you must have android sdk setup in current terminal. So it can build apk.
-
-```
-cordova build android
+```bash
+cd packages/web-ui/public_app
+npm install
+npx cordova@8.1.1 platform add android
 ```
 
-To generate signed apk:
+#### Build Android APK/App bundle
 
-- You need to have keystore file to sign an apk. 
-Then use below command to generate signed apk.
+Before building Android APK, you should always build React application.
+All React files are build into `packages/web-ui/public_app/www` directory.
 
+The following commands are used to create an APK. To create an aab file, please add `-- --packageType=bundle` at the end of the command.
+
+##### Debug
+
+```bash
+cd packages/web-ui/public_app
+npx cordova@8.1.1 build android
 ```
-cordova build android --release -- --keystore="<Path-to-keystore-file>" --storePassword=<storePassword> --alias=<alias-name> --password=<password>
+
+##### Release
+
+```bash
+cd packages/web-ui/public_app
+npx cordova@8.1.1 build android --release
+```
+
+To sign APK or aab file, you need to add the keystore file and add a build.json file in packages/web-ui/public_app/ folder with the following props :
+
+```json
+{
+  "android": {
+    "release": {
+      "keystore": "***",
+      "storePassword": "***",
+      "alias": "***",
+      "password": "***"
+    }
+  }
+}
 ```
